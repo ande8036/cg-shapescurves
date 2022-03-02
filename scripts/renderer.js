@@ -244,6 +244,8 @@ class Renderer {
 	    for(let i = 0; i < pointArray.length; i++) {
 		this.drawCircle({x:pointArray[i].x, y:pointArray[i].y}, 10, [255, 0, 0, 255], ctx);
 	    }
+	    this.drawCircle({x:pt1.x, y:pt1.y}, 10, [0, 255, 0, 100], ctx);
+	    this.drawCircle({x:pt2.x, y:pt2.y}, 10, [0, 255, 0, 100], ctx);
 	}
     }
 
